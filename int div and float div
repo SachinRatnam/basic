@@ -1,0 +1,7 @@
+# a//b gives int division(after decimal point is rounded off) and a/b gives float division
+# code
+
+a = int(input())
+b = int(input())
+print(a//b)
+print(a/b)
