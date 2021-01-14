@@ -1,0 +1,5 @@
+# with using one more argument 'end' in print we can manipulate how the object is printed
+# Without using any string methods, try to print 12345...
+
+for i in range(n):
+  print(i,end='')
