@@ -1,0 +1,13 @@
+# separator -- ',' is optional argument in print function
+# task-----
+# Given a string, S , of length N that is indexed from 0 to N-1, print its even-indexed and odd-indexed characters as 2 space-separated strings on a single line
+# Note: 0 is considered to be an even index.
+# Example----
+# S = 'abcdef'
+# Print-- abc def
+
+
+
+for i in range(int(input())):
+   string = input()
+   print(string[::2], string[1::2])
