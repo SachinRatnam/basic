@@ -1,0 +1,21 @@
+def __init__(self,initialAge):
+# run some checks on initialAge
+        if initialAge < 0:
+            print('Age is not valid, setting age to 0.')
+            self.Age = 0
+        else:
+            self.Age = initialAge
+        
+         
+    def amIOld(self):
+        if self.Age < 13:
+            print('You are young.')
+        elif 13 <= self.Age < 18:
+            print('You are a teenager.')
+        else:
+            print('You are old.')
+        
+     # Increment the age of the person in here  
+    def yearPasses(self):
+        self.Age += 1
+        
