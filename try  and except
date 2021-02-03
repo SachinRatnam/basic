@@ -1,0 +1,11 @@
+# when there is unknown no of query as input---
+phone_book = {'sam':1,'harry':2,'kitty':3}
+while True:
+    try:
+        name = input()
+        if name in phone_book:
+            print(f'{name} = {phone_book[name]}')
+        else:
+            print('Not found')
+    except:
+        break
