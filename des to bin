@@ -1,0 +1,4 @@
+# converting desimal to binary
+# inbuilt function -- bin()
+binary = bin(n)[2:]
+# [2:] is used to remove '0b' from output
