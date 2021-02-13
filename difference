@@ -1,0 +1,5 @@
+# calculating max difference in a list---
+a = [1,2,8,15,7]
+maximumDifference = abs(max(a) - min(a))
+
+# creating list of differnce from a list
